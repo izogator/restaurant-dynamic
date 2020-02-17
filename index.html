@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"></div>
+
+        <div class="nav">
+            <a href="#starter">STARTER</a>
+            <a href="#main">MAIN</a>
+            <a href="#dessert">DESSERT</a>
+            <a href="#drinks">DRINKS</a>
+            <a href="#sideorders">SIDEORDERS</a>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="popular">
+            <h1 style="position: absolute; top: 40vmin; left: 20px;">This week Palvova with melon 40% off!</h1>
+        </div>
+
+
+        <div class="menu">
+            <template id="dishTemplate">
+
+
+                <article class="coin1">
+                    <div><img src="" class="imageName">
+                        <p class="soldOut">SOLD OUT</p>
+                    </div>
+                    <div class="text">
+                        <h2>NAME</h2>
+                        <h3></h3>
+                        <div class="icons">
+                            <img src="veg-icon.png" class="vege">
+                            <img src="alcohol-icon.png" class="alko">
+                        </div>
+                        <button class="but">Read more!</button>
+                    </div>
+
+                    <div class="money">
+                        <p class="originalPrice"><span class="price"></span>kr</p>
+
+                        <div class="discount">
+
+                            <p id="normalPrice"><span class="normalPrice"></span>kr</p>
+                            <p class="salePrice"><span class="sale"></span>kr</p>
+                        </div>
+
+                    </div>
+                </article>
+
+            </template>
+        </div>
+    </main>
+
+    <div class="modal-background hide">
+        <div class="modal-content">
+            <img src="" alt="" class="modal-image" />
+            <div class="modal-text">
+                <h2 class="modal-name">NAME</h2>
+                <p class="modal-description">LONG DESCRIPTION</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="eh.js"></script>
+</body></html>

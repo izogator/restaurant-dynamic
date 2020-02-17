@@ -1,0 +1,214 @@
+.logo {
+    background-image: url("The%20East.png");
+    background-size: contain;
+    height: 20vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav {
+    text-align: center;
+    border-bottom: .5px solid #F5D832;
+    border-top: 0.5px solid #F5D832;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration-line: none;
+    color: black;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.nav a:hover {
+    color: #024DF6;
+}
+
+.popular {
+    background-image: url("pavlova.png");
+    background-size: cover;
+    height: 80vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    color: #024DF6;
+    text-shadow: 2px 2px #F5D832;
+    margin-bottom: 10px;
+    margin-top: 8vmin;
+}
+
+img {
+    width: 20vmin;
+}
+
+h4 {
+    font-size: 5vmin;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 20vmin;
+    margin-bottom: 7px;
+    text-align: center;
+    color: #024DF6;
+    border-bottom: 5px dotted #F5D832;
+    text-transform:capitalize;
+}
+
+p {
+    margin-top: 6px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+
+}
+.but {
+    background-color: #F5D832;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vmin;
+    width: 17vmin;
+    height: 5vmin;
+    margin-top: 2vmin;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: #024DF6;
+
+
+}
+
+
+/************************************************/
+
+
+#starter,
+#main,
+#dessert,
+#drinks,
+#sideorders {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.menu {
+    display: grid;
+    grid-row-gap: 3vmin;
+    grid-template-rows: 1fr;
+
+}
+
+.coin1 {
+    width: 80%;
+    height: 30vmin;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px;
+    grid-column-gap: 20px;
+    margin-top: 0vmin;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vmin;
+    border-bottom: 0.5px solid #F5D832;
+
+}
+
+.coin1 h2,
+.coin1 h3 {
+    text-align: left;
+}
+
+.coin1 p {
+    text-align: right;
+
+}
+
+.salePrice {
+    color: red;
+    font-size: 3vmin;
+}
+
+#normalPrice {
+    text-decoration: line-through;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.vege ,
+.alko {
+    width: auto;
+    height: 3vmin;
+}
+
+h2 {
+    font-size: 3vmin;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-size: 2vmin;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.soldOut{
+    position: absolute;
+    font-size: 4vmin;
+    color: red;
+
+}
+
+.filter{
+  filter: grayscale(100%);
+}
+
+.hide {
+  display: none;
+}
+.modal-background {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+  background-color: #fefefe;
+  border: 1px solid #7c1f17;
+
+  padding: 2em;
+    width: 60%;
+  height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2vmin;
+}
+.modal-image {
+    grid-column: 1;
+    width: 30vmin;
+
+}
+.modal-description{
+    grid-column: 2;
+}
+.modal-name{
+    grid-column: 2;
+}
